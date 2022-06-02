@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+
+        <ul class="nav">
+            <li class="navli"><a href="index.html"> Home</a></li>
+            <li class="navli"><a href="contactme.html"> Contact Me</a></li>
+            <li class="navli"><a href="signup.html"> Sign up</a></li>
+            <li class="navli"><a href="login.html"> Login</a></li>
+        </ul>
+
+    </header>
+    <main>
+        <div>
+            <form action="#" class="contactmeform">
+                <h2>Signup here</h2>
+
+                <label for="first name">First Name</label>
+                <input type="text" placeholder="Your first name here" required id="" class="contactmeinput" value=""><br>
+
+                <label for="last name">Last Name</label>
+                <input type="text" placeholder="Your Last name here" required id="" class="contactmeinput" value=""><br>
+
+                <label for="Phone Number">Phone Number</label>
+                <input type="tel" placeholder="Eleven Numbers needed here" required pattern="[0-9]{4}[0-9]{3}[0-9]{4}"
+                    title="Phone number must be eleven numbers" id="" class="contactmeinput" value=""><br>
+
+                <label for="Gender">Gender</label>
+                <select class="contactmeinput" required>
+                    <option value="">-----Select Gender-----</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+
+                <label for="Country">Country</label>
+                <input type="text" id="" placeholder="Your Country name here" required class="contactmeinput" value=""><br>
+
+                <label for="state">State/Province</label>
+                <input type="text" id="" placeholder="Your state or province here" required class="contactmeinput" value=""><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="" placeholder="abc@abc.com" required pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" class="contactmeinput" value=""><br>
+
+                <label for="password">Password</label>
+                <input type="password" id="" required
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                    title="Password must be minimum of 8 characters and must contain at least one uppercase, one lower case,one number and one special character"
+                    placeholder="" class="contactmeinput" value=""><br>
+
+                <label for="confirm password">Confirm Password</label>
+                <input type="password" id="" required
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                    title="Confirm Password must be the same as password"
+                    placeholder="" class="contactmeinput" value=""><br>
+
+
+                <input type="submit" class="contactmeinput1" value="Sign Up">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="nav"></div>
+    </footer>
+</body>
+
+</html>

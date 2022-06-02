@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+
+        <ul class="nav">
+            <li class="navli"><a href="index.html"> Home</a></li>
+            <li class="navli"><a href="contactme.html"> Contact Me</a></li>
+            <li class="navli"><a href="signup.html"> Sign up</a></li>
+            <li class="navli"><a href="login.html"> Login</a></li>
+        </ul>
+
+    </header>
+    <main>
+        <div>
+            <form action="#" class="contactmeform">
+                <h2>Sign in here</h2>
+                
+                <label for="email">Email</label>
+                <input type="email" placeholder="abc@abc.com" required pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" id=""  class="contactmeinput" value=""><br>
+
+                <label for="password">Password</label>
+                <input type="password" id="" required
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                    title="Password must be minimum of 8 characters and must contain at least one uppercase, one lower case,one number and one special character"
+                    placeholder="Enter a very unique password" class="contactmeinput" value=""><br>
+
+                <input type="submit" class="contactmeinput1" value="Sign In">
+            </form>
+        </div>
+       
+    </main>
+    <footer>
+        <div class="nav"></div>
+    </footer>
+</body>
+
+</html>

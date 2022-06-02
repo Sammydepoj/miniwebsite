@@ -1,0 +1,88 @@
+body{
+    background-image: url("header-background.jpg");
+    background-color: rgb(207, 95, 4);
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-weight:bolder;
+    font-size:25px;
+    color: wheat; 
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 3rem;
+    margin: 0px;
+    
+}
+.navli{
+    list-style-type: none;
+    padding: 1rem;
+    font-weight:bolder;
+    font-size:25px;
+}
+a{
+text-decoration: none;
+color:white;
+}
+a:hover{
+	color:rgb(196, 125, 33);
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.contactmewrapper{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    background-color: black;
+    width:30%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgba(212, 153, 44, 0.781);
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.2rem rgba(219, 143, 44, 0.692);
+    font-weight: bolder;
+}
+.contactmeform{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 6rem 9rem;
+   
+}
+.contactmeinput{
+    width: 50%;
+    height: 30px;
+}
+.contactmeinput1{
+    width: 40%;
+    height: 40px;
+    margin:0 4rem;
+}
+.contactmeinput1:hover{
+    width: 40%;
+    height: 40px;
+    margin: 0 4rem;
+    color: white;
+    background-color: rgb(218, 145, 49);
+}
+footer{
+    background-color: black;
+    
+}
